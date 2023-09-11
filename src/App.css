@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.posts {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav{
+  background-color: rgb(233, 89, 89);
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+.post{
+    display: flex;
+    margin: 0px 40px;
+    padding: 20px 0px;
+    border-bottom: 1px solid #F5F5F5;
+    gap: 20px;
+}
+
+.img-journal{
+  width: 125px;
+  min-height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  height: auto;
+}
+
+.country{
+  letter-spacing: 1.7px; 
+  margin-right: 15px;
+  font-size: 12px;
+}
+.location-icon{
+  color: red;
+  margin-right: 5px;
+  width: 9px;
+}
+
+.post-location a{
+  color: grey;
+  font-size: 12px;
+}
+.dates{
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.description{
+  line-height: 150%;
+  margin-top: 20px;
+  font-size: 12px;
+}
